@@ -287,4 +287,24 @@ $slickElement.slick({
 	pauseOnDotsHover: true,
 });
 
+
+
+
+
+	var _radius = 500;
+
+
+	const mediaQuery = window.matchMedia('(min-width: 768px)');
+	// Check if the media query is true
+	if (mediaQuery.matches) {
+		// Then trigger an alert
+	
+		_radius = 900;
+	}
+	$("#ex").arctext({
+		radius: _radius, //Độ cong của chữ
+				dir: 1 
+});
+
+
 })();
