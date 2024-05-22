@@ -291,15 +291,16 @@ $slickElement.slick({
 
 
 
-	var _radius = 500;
+	var _radius = 100;
 
 
 	const mediaQuery = window.matchMedia('(min-width: 768px)');
+
 	// Check if the media query is true
 	if (mediaQuery.matches) {
 		// Then trigger an alert
 	
-		_radius = 900;
+		_radius = 730;
 	}
 	$("#ex").arctext({
 		radius: _radius, //Độ cong của chữ
